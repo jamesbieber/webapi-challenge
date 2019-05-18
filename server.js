@@ -14,10 +14,10 @@ server.get("/", (req, res) => {
   res.send(`
     <h2>Welcome to the <strong>WEBAPI Sprint Challenge by James Bieber</strong></h2>
     <ul>
-      <li><strong>get()</strong> Get requests can be made to both localhost3000/api/projects and localhost3000/api/actions with an ID if you wish.</li>
-      <li><strong>insert()</strong> Post requests can be made to both localhost3000/api/projects and localhost3000/api/actions.</li>
-      <li><strong>update()</strong> Updates can be made to both localhost3000/api/projects/:id and localhost3000/api/actions/ ID is required for projects, but provided in body for actions.</li>
-      <li><strong>remove()</strong> Delete requests can be made to both locahost3000/api/projects/:id and localhost3000/api/actions/:id.</li>
+      <li><strong>get()</strong> Get requests can be made to both <strong>localhost3000/api/projects</strong> and <strong>localhost3000/api/actions</strong> with an ID if you wish.</li>
+      <li><strong>insert()</strong> Post requests can be made to both <strong>localhost3000/api/projects</strong> and <strong>localhost3000/api/actions</strong>.</li>
+      <li><strong>update()</strong> Updates can be made to both <strong>localhost3000/api/projects</strong>/:id and <strong>localhost3000/api/actions</strong>/ ID is required for projects, but provided in body for actions.</li>
+      <li><strong>remove()</strong> Delete requests can be made to both <strong>locahost3000/api/projects/:id</strong> and <strong>localhost3000/api/actions</strong>/:id.</li>
     </ul>
   `);
 });
